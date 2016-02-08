@@ -1,4 +1,4 @@
-<a href="index.html"> noahschutte.gihub.io</a>
+<a href="http://noahschutte.github.io/"> noahschutte.gihub.io</a>
 
 **What did you learn about CSS padding, borders, and margin by doing this challenge?**
 
