@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Noah's Cheat Sheet</title>
+		<link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+	</head>
+		<body>
+    <header>
+    <p id="site_title">Noah's Cheat Sheet</p>
+    </header>
+    <main>
+    
+      <H1>
+        Command Line
+      </H1>
+      <section>
+        <ul>
+          <li>
+          <span class="cli">CTRL L</span> 
+          = Clear the terminal
+          </li>
+          <li>
+          <span class="cli">CTRL D</span> 
+          = Logout
+          </li>
+          <li>
+          <span class="cli">SHIFT Page Up/Down</span> 
+          = Go up/down the terminal
+          </li>
+          <li>
+          <span class="cli">CTRL A</span> 
+          = Cursor to start of line 
+          </li>
+          <li>
+          <span class="cli">CTRL E</span> 
+          = Cursor the end of line
+          </li>
+          <li>
+          <span class="cli">CTRL U</span> 
+          = Delete left of the cursor
+          </li>
+          <li>
+          <span class="cli">CTRL K</span> 
+          = Delete right of the cursor
+          </li>
+          <li>
+          <span class="cli">CTRL W</span> 
+          = Delete word on the left
+          </li>
+          <li>
+          <span class="cli">CTRL Y</span> 
+          = Paste (after CTRL U,K or W)
+          </li>
+          <li>
+          <span class="cli">TAB</span> 
+          = auto completion of file or command 
+          </li>
+          <li>
+          <span class="cli">CTRL R</span> 
+          = reverse search history
+          </li>
+          <li>
+          <span class="cli">!!</span> 
+          = repeat last command
+          </li>
+          <li>
+          <span class="cli">CTRL Z</span> 
+          = stops the current command
+          </li>
+          <li>
+          <span class="cli">ls</span> 
+          = list all files and folders
+          </li>
+          <li>
+          <span class="cli">ls -lh</span> 
+          = Detailed list, Human readable
+          </li>
+          <li>
+          <span class="cli">cd "folderName"</span> 
+          = change directory
+          </li>
+          <li>
+          <span class="cli">du -sh</span> 
+          = only show disc usage of folders
+          </li>
+          <li>
+          <span class="cli">pwd</span> 
+          = print working directory
+          </li>
+          <li>
+          <span class="cli">man "command" </span>
+          = shows manual
+          </li>
+          <li>
+          <span class="cli">cat (less, more) "fileName" </span>
+          = show content of file
+          </li>
+          <li>
+          <span class="cli">head</span> 
+          = from the top (-n "#oflines" "fileName")
+          </li>
+          <li>
+          <span class="cli">tail </span>
+          = from the bottom
+          </li>
+          <li>
+          <span class="cli">mkdir </span>
+          = create new folder
+          </li>
+          <li>
+            <span class="cli">cp image.jpg newimage.jpg </span>
+            = copy and rename a file
+          </li>
+          <li>
+          <span class="cli">mv file.txt Documents/ </span>
+          = move file to a folder
+          </li>
+          <li>
+            <span class="cli">rm "fileName" .. </span>
+            = delete file (s)
+          </li>
+          <li>
+            <span class="cli">rm -f "fileName" </span>
+            = force deletion of a file
+          </li>
+          <li>
+            <span class="cli">touch "fileName" </span>
+            = create or update a file
+          </li>
+          <li>
+            <span class="cli">wc </span>
+            = word count
+          </li>
+          <li>
+          <span class="cli">grep "someText" "fileName" </span>
+          = search for text in file
+          </li>
+          <li>
+          <span class="cli">chmod</span> 
+          = modify user access/permission – simple way
+          </li>
+        </ul>
+      </section>
+      
+
+      <H1>
+        Git
+      </H1>
+      <section class="git">
+        <div class="tidbit">
+          <p class="git_command">
+          $ git init [project-name]</p>
+          <p class="git_explanation">
+          Creates a new local repository with the specified name
+          </p>  
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git clone [url]
+          </p>
+          <p class="git_explanation">
+            Downloads a project and its entire version history
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git status
+          </p>
+          <p class="git_explanation">
+            Lists all new or modified files to be commited
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git add [file]
+          </p>
+          <p class="git_explanation">
+            Snapshots the file in preparation for versioning
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git commit -m "[descriptive message]"
+          </p>
+          <p class="git_explanation">
+            Records file snapshots permanently in version history
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git branch
+          </p>
+          <p class="git_explanation">
+            Lists all local branches in the current repository
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git branch [branch-name]
+          </p>
+          <p class="git_explanation">
+            Creates a new branch
+          </p>
+        </div>
+        <div class="tidbit">
+          <p class="git_command">
+            $ git checkout [branch-name]
+          </p>
+          <p class="git_explanation">
+            Switches to the specified branch and updates the working directory
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git merge [branch]
+          </p>
+          <p class="git_explanation">
+            Combines the specified branch’s history into the current branch
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git branch -d [branch-name]
+          </p>
+          <p class="git_explanation">
+            Deletes the specified branch
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git rm [file]
+          </p>
+          <p class="git_explanation">
+            Deletes the file from the working directory and stages the deletion
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git log
+          </p>
+          <p class="git_explanation">
+            Lists version history for the current branch
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git reset [commit]
+          </p>
+          <p class="git_explanation">
+            Undoes all commits afer [commit], preserving changes locally
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git fetch [bookmark]
+          </p>
+          <p class="git_explanation">
+            Downloads all history from the repository bookmark
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git merge [bookmark]/[branch]
+          </p>
+          <p class="git_explanation">
+            Combines bookmark’s branch into current local branch
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git push [alias] [branch]
+          </p>
+          <p class="git_explanation">
+            Uploads all local branch commits to GitHub
+          </p>
+          </div>
+          <div class="tidbit">
+          <p class="git_command">
+            $ git pull
+          </p>
+          <p class="git_explanation">
+            Downloads bookmark history and incorporates changes
+          </p>
+          </div>
+      </section>
+      
+      <H1>
+      HTML
+      </H1>
+      <section>
+        <p>
+          <pre>
+          &lt;!DOCTYPE&gt;
+          </pre>
+        </p>
+        <p>
+          Defines the document type
+        </p>
+        <p>
+          <pre>
+          &lt;html&gt;
+          </pre>
+        </p>
+        <p>
+          Defines an HTML document
+        </p>
+        <p>
+          <pre>
+          &lt;title&gt;
+          </pre>
+        </p>
+        <p>
+          Defines a title for the document
+        </p>
+        <p>
+          <pre>
+          &lt;body&gt;
+          </pre>
+        </p>
+        <p>
+          Defines the document's body
+        </p>
+        <p>
+          <pre>
+          &lt;h1&gt; to &lt;h6&gt;
+          </pre>
+        </p>
+        <p>
+          Defines HTML headings
+        </p>
+        <p>
+          <pre>
+          &lt;p&gt;
+          </pre>
+        </p>
+        <p>
+          Defines a paragraph
+        </p>
+        <p>
+          <pre>
+          &lt;br&gt;
+          </pre>
+        </p>
+        <p>
+          Inserts a single line break
+        </p>
+        <p>
+          <pre>
+          &lt;hr&gt;
+          </pre>
+        </p>
+        <p>
+          Defines a thematic change in the content
+        </p>
+        <p>
+          <pre>
+          &lt;!--...--&gt;
+          </pre>
+        </p>
+        <p>
+          Defines a comment
+        </p>
+      </section>
+
+      <H1>
+      CSS
+      </H1>
+      <section>
+      	<img src="/imgs/css.JPG">
+      </section>
+
+      <H1>
+      JavaScript
+      </H1>
+      <section>
+      	<img src="/imgs/JS.png">
+      </section>
+      
+      <H1>
+      Ruby
+      </H1>
+      <section>
+      	<img src="/imgs/ruby.JPG">
+      	<img src="/imgs/ruby2.JPG">
+      </section>
+
+      <H1>
+      SQL
+      </H1>
+      <section>
+      	<img src="/imgs/sql1.JPG">
+      	<img src="/imgs/sql2.JPG">
+      	<img src="/imgs/sql3.JPG">
+      	<img src="/imgs/sql4.JPG">
+      </section>
+
+    </main>
+	</body>
+</html>
+</html>

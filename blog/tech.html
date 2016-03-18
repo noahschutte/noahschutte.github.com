@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Noah Knows Code</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+
+  <body>
+    <main>
+      <h1>Noah Knows Code</h1>
+      <h2>Week 8 @ DBC</h2>
+      <h4>March 9th, 2016</h4>
+  
+      <section>
+        <h3>What is Rails?</h3>
+        <br>
+        <p>
+          Ruby on Rails, or Rails, is a web application framework written in Ruby. Rails is a model-view-controller (MVC) framework, providing default structures for databases, a web service, and web pages. 
+        </p>
+        <br>
+        <h3>MVC</h3>
+        <br>
+        <p>
+          In a default configuration, a model in the Ruby on Rails framework maps to a table in a database, and to a Ruby file. For example, a model class, User, will usually be defined in the file, 'user.rb', in the app/models directory, and linked to the table, 'users', in the database. While developers are free to ignore this convention and choose differing names for their models, files, and database table, this is not common practice and is usually discouraged in accordance with the "convention-over-configuration" philosophy.
+        </p>
+        <br>
+        <p>
+          A view in the default configuration of Rails is an erb file, which is evaluated and converted to HTML at run-time. Alternatively, many other templating systems can be used for views.
+        </p>
+        <br>
+        <p>
+          A controller is a server-side component of Rails that responds to external requests from the web server to the application, by determining which view file to render. The controller may also have to query one or more models directly for information and pass these on to the view. A controller may provide one or more actions. In Ruby on Rails, an action is typically a basic unit that describes how to respond to a specific external web-browser request. Also note that the controller/action will be accessible for external web requests only if a corresponding route is mapped to it. Rails encourages developers to use RESTful routes, which include actions such as: create, new, edit, update, destroy, show, and index. These mappings of incoming requests/routes to controller actions can be easily set up in the routes configuration file.
+        </p>
+        <br>
+        <h3>What makes Rails different?</h3>
+        <br>
+        <p>
+          Rails operates on three basic premises. It encourages programmers to use:
+          <ul>
+            <li>
+              convention over configuration (CoC),
+            </li>
+            <li>
+              don't repeat yourself (DRY),
+            </li>
+            <li>
+              and the active record pattern.
+            </li>
+          </ul>
+        </p>
+        <br>
+        <p>
+          "Convention over configuration" means a developer is able to make use of commonly used conventions, without having to customize every aspect of a new application. 
+        </p>
+        <br>
+        <p>
+          "Don't repeat yourself" means that information is located in a single, unambiguous place. 
+        </p>
+        <br>
+        <p>
+          "Fat models, skinny controllers" is something I don't fully understand yet, but it is defined by most of the application logic should be placed within the model while leaving the controller as light as possible. 
+        </p>
+        </section>
+      </main>
+  </body>
+</html>
