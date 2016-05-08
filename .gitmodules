@@ -4,3 +4,6 @@
 [submodule "subm"]
 	path = subm
 	url = https://github.com/noahschutte/React_YouTube_Search.git
+[submodule "React_YouTube_Search"]
+	path = React_YouTube_Search
+	url = https://github.com/noahschutte/React_YouTube_Search.git
