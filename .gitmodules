@@ -1,15 +1,6 @@
 [submodule "Tetris"]
 	path = Tetris
 	url = https://github.com/noahschutte/Tetris.git
-[submodule "subm"]
-	path = subm
-	url = https://github.com/noahschutte/Bumble_Number.git
 [submodule "React_YouTube_Search"]
 	path = React_YouTube_Search
 	url = https://github.com/noahschutte/React_YouTube_Search.git
-[submodule "Bumble_Numbers"]
-	path = Bumble_Numbers
-	url = https://github.com/noahschutte/Bumble_Number.git
-[submodule "Bumble_Number"]
-	path = Bumble_Number
-	url = https://github.com/noahschutte/Bumble_Number.git
