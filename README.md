@@ -1,2 +1,1 @@
-# noahschutte.github.io
-My DBC Phase 0 github pages site!
+<a href="http://www.noahschutte.com"><h3>Noah Schutte's Website</h3></a>
