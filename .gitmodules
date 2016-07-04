@@ -4,3 +4,6 @@
 [submodule "Bumble_Number"]
 	path = Bumble_Number
 	url = https://github.com/noahschutte/Bumble_Number.git
+[submodule "Tic_Tac_Toe"]
+	path = Tic_Tac_Toe
+	url = https://github.com/noahschutte/Tic_Tac_Toe.git
